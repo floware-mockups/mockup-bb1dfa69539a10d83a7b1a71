@@ -1,0 +1,149 @@
+{
+  "title": "Registro presenze del laboratorio",
+  "description": "Prototipo navigabile per consultare le presenze e registrare entrate, uscite e attività svolte in un laboratorio didattico. Dati interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica delle presenze e delle attività registrate.",
+      "metrics": [
+        {
+          "label": "Presenze registrate",
+          "value": "24"
+        },
+        {
+          "label": "Presenti ora",
+          "value": "8"
+        },
+        {
+          "label": "Ingressi odierni",
+          "value": "12"
+        },
+        {
+          "label": "Uscite odierne",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "12/06/2025",
+          "Lumo",
+          "09:00",
+          "12:00",
+          "Modellazione con carta"
+        ],
+        [
+          "12/06/2025",
+          "Vela",
+          "09:15",
+          "—",
+          "Esperimenti con ombre"
+        ],
+        [
+          "12/06/2025",
+          "Nubi",
+          "10:00",
+          "—",
+          "Costruzione di una girandola"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Tabella filtrabile per consultare e aggiornare le registrazioni di presenza.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "24"
+        },
+        {
+          "label": "Da completare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "12/06/2025",
+          "Lumo",
+          "09:00",
+          "12:00",
+          "Modellazione con carta"
+        ],
+        [
+          "12/06/2025",
+          "Vela",
+          "09:15",
+          "—",
+          "Esperimenti con ombre"
+        ],
+        [
+          "12/06/2025",
+          "Nubi",
+          "10:00",
+          "—",
+          "Costruzione di una girandola"
+        ],
+        [
+          "11/06/2025",
+          "Lumo",
+          "09:10",
+          "12:10",
+          "Collage di forme"
+        ],
+        [
+          "11/06/2025",
+          "Vela",
+          "09:00",
+          "11:45",
+          "Disegno di mappe"
+        ],
+        [
+          "11/06/2025",
+          "Nubi",
+          "09:20",
+          "12:00",
+          "Piccole strutture in legno"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-presenza",
+      "title": "Registra una presenza",
+      "description": "Inserisci una registrazione con data, orari e attività svolta.",
+      "metrics": [],
+      "columns": [
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [],
+      "form": [
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    }
+  ]
+}
